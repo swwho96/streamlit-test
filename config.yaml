@@ -2,26 +2,7 @@ cookie:
   expiry_days: 0
   key: random
   name: random_cookie_name
-credentials:
-  usernames:
-    abc:
-      email: abc@gmail.com
-      first_name: seung
-      last_name: seo
-      logged_in: false
-      password: $2b$12$kXGm/OP4BGHzNqTgL6DpK.vmc2UA8Y0EnmnA4myV3HiRjEFf8NwBu
-      password_hint: how
-      roles: null
-    john:
-      email: john@gmail.com
-      name: John Smith
-      password: $2b$12$Wt6w9UW6XknNHYrIfV8RI.dJDtKYw9fwlx/qh7NGSDkOoZxhbG8B.
-    swwho:
-      email: eric@gmail.com
-      first_name: seungwoo
-      last_name: seo
-      logged_in: false
-      password: $2b$12$7U5fLTG269rPsKoZo7ahRejgLUA7Bs5aKmdjJUxWJ0Mppbug5.02G
-      password_hint: how?
-      roles: null
-pre-authorized: null
+credentials: null
+pre-authorized:
+  email:
+  - abcde@gmail.com
